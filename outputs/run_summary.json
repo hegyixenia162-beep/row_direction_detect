@@ -1,0 +1,50 @@
+{
+  "parameters": {
+    "input": "test_photo",
+    "output": "outputs",
+    "max_side": 1800,
+    "h_min": 25,
+    "h_max": 100,
+    "s_min": 35,
+    "v_min": 25,
+    "min_component": 18,
+    "angle_tolerance": 12.0
+  },
+  "images": [
+    {
+      "source": "test_photo\\1784859377282_29_239.jpg",
+      "status": "success",
+      "row_count": 18
+    },
+    {
+      "source": "test_photo\\1784859377283_29_240.jpg",
+      "status": "success",
+      "row_count": 28
+    },
+    {
+      "source": "test_photo\\1787026853792_29_61.jpg",
+      "status": "success",
+      "row_count": 6
+    },
+    {
+      "source": "test_photo\\1787026853793_29_62.jpg",
+      "status": "success",
+      "row_count": 6
+    },
+    {
+      "source": "test_photo\\1787026853793_29_63.jpg",
+      "status": "success",
+      "row_count": 6
+    },
+    {
+      "source": "test_photo\\1787026853793_29_64.jpg",
+      "status": "success",
+      "row_count": 6
+    },
+    {
+      "source": "test_photo\\1787026853793_29_65.jpg",
+      "status": "success",
+      "row_count": 5
+    }
+  ]
+}

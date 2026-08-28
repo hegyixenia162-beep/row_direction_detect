@@ -1,0 +1,105 @@
+{
+  "source": "test_photo\\1787026853793_29_64.jpg",
+  "image_size": {
+    "width": 5472,
+    "height": 3648
+  },
+  "work_scale": 0.32894736842105265,
+  "hsv_mask_ratio": 0.05695555555555556,
+  "dominant_row_angle_deg": 88.97673634778526,
+  "hough_support_lines": 566,
+  "estimated_row_spacing_px": 1121.76,
+  "row_count": 6,
+  "rows": [
+    {
+      "row_id": 1,
+      "start": [
+        2,
+        490
+      ],
+      "end": [
+        111,
+        3618
+      ],
+      "angle_deg": 88.00424744890462,
+      "length_px": 3129.898560656559,
+      "support_points": 77,
+      "longitudinal_coverage": 0.8562144637107849
+    },
+    {
+      "row_id": 2,
+      "start": [
+        959,
+        63
+      ],
+      "end": [
+        1044,
+        3535
+      ],
+      "angle_deg": 88.597589677425,
+      "length_px": 3473.0403107364014,
+      "support_points": 117,
+      "longitudinal_coverage": 0.9707554578781128
+    },
+    {
+      "row_id": 3,
+      "start": [
+        2033,
+        56
+      ],
+      "end": [
+        2173,
+        3560
+      ],
+      "angle_deg": 87.71200202845668,
+      "length_px": 3506.795688374217,
+      "support_points": 120,
+      "longitudinal_coverage": 0.9715678095817566
+    },
+    {
+      "row_id": 4,
+      "start": [
+        3135,
+        75
+      ],
+      "end": [
+        3171,
+        3582
+      ],
+      "angle_deg": 89.41186894290705,
+      "length_px": 3507.1847684432023,
+      "support_points": 116,
+      "longitudinal_coverage": 0.9707554578781128
+    },
+    {
+      "row_id": 5,
+      "start": [
+        4369,
+        63
+      ],
+      "end": [
+        4415,
+        3545
+      ],
+      "angle_deg": 89.2431210375893,
+      "length_px": 3482.303835106868,
+      "support_points": 119,
+      "longitudinal_coverage": 0.961007297039032
+    },
+    {
+      "row_id": 6,
+      "start": [
+        5397,
+        64
+      ],
+      "end": [
+        5337,
+        3575
+      ],
+      "angle_deg": 90.97904077965732,
+      "length_px": 3511.512637026955,
+      "support_points": 96,
+      "longitudinal_coverage": 0.9646628499031067
+    }
+  ]
+}

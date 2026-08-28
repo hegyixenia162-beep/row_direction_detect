@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>棉花种植行线段标注</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark">R</span>
+        <div><h1>种植行线段标注</h1><p>有限中心线 · 原图像素坐标</p></div>
+      </div>
+      <div class="progress"><span id="progressText">0 / 0</span><div class="progress-track"><i id="progressBar"></i></div></div>
+      <div class="save-state" id="saveState" data-state="saved"><i></i><span>已保存</span></div>
+    </header>
+
+    <main class="workspace">
+      <aside class="sidebar">
+        <section>
+          <div class="section-title"><span>影像队列</span><button id="refreshButton" class="text-button">刷新</button></div>
+          <div id="imageList" class="image-list"></div>
+        </section>
+        <section class="help-card">
+          <h2>标注规则</h2>
+          <ol>
+            <li>每个物理种植行只画一条中心线</li>
+            <li>从可见行的一端拖到另一端</li>
+            <li>缺苗但行结构明确时保持一条连续线</li>
+            <li>无法判断的弱行不要强行标注</li>
+          </ol>
+        </section>
+      </aside>
+
+      <section class="stage-panel">
+        <div class="toolbar">
+          <div class="tool-group">
+            <button id="prevButton" title="上一张（A）">← 上一张</button>
+            <button id="nextButton" title="下一张（D）">下一张 →</button>
+          </div>
+          <div class="tool-group center-tools">
+            <button id="drawButton" class="active" title="绘制（V）">✦ 画线</button>
+            <button id="selectButton" title="选择（S）">⌖ 选择</button>
+            <button id="undoButton" title="撤销（Ctrl+Z）">↶ 撤销</button>
+            <button id="deleteButton" title="删除（Delete）">删除</button>
+          </div>
+          <div class="tool-group">
+            <button id="zoomOutButton" title="缩小">−</button>
+            <button id="fitButton" title="适应窗口（F）">适应</button>
+            <button id="zoomInButton" title="放大">＋</button>
+            <label class="toggle"><input id="predictionToggle" type="checkbox" /><span></span>算法参考</label>
+            <button id="saveButton" class="primary" title="保存（Ctrl+S）">保存</button>
+          </div>
+        </div>
+
+        <div id="canvasViewport" class="canvas-viewport">
+          <canvas id="annotationCanvas"></canvas>
+          <div id="emptyState" class="empty-state"><b>正在读取影像……</b><span>左键拖动即可绘制有限中心线段</span></div>
+          <div class="zoom-badge" id="zoomBadge">100%</div>
+        </div>
+
+        <footer class="statusbar">
+          <span id="imageInfo">尚未加载图像</span>
+          <span id="lineInfo">人工线段 0</span>
+          <span>左键拖画 · 右键/空格拖动画面 · Delete 删除 · Ctrl+S 保存</span>
+        </footer>
+      </section>
+    </main>
+
+    <div id="toast" class="toast"></div>
+    <script src="/app.js"></script>
+  </body>
+</html>

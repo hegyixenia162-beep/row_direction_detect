@@ -1,0 +1,688 @@
+{
+  "version": "v2",
+  "source": "test_photo\\photo12.jpg",
+  "image_size": {
+    "width": 6144,
+    "height": 4096
+  },
+  "work_scale": 0.29296875,
+  "enhanced_mask_ratio": 0.4797060185185185,
+  "global_hough_angle_deg": 98.37027429190167,
+  "hough_support_lines": 1152,
+  "direction_region_count": 1,
+  "direction_regions": [
+    {
+      "region_id": 1,
+      "y_range_work": [
+        0,
+        1200
+      ],
+      "angle_deg": 98.37027429190167,
+      "estimated_row_spacing_px": 146.77333333333334,
+      "row_count_before_final_filter": 44
+    }
+  ],
+  "row_count": 44,
+  "rows": [
+    {
+      "row_id": 1,
+      "start": [
+        118,
+        27
+      ],
+      "end": [
+        6,
+        956
+      ],
+      "angle_deg": 96.8743868865108,
+      "length_px": 935.7269900991421,
+      "support_points": 25,
+      "longitudinal_coverage": 0.1959972381591797
+    },
+    {
+      "row_id": 2,
+      "start": [
+        243,
+        21
+      ],
+      "end": [
+        0,
+        1886
+      ],
+      "angle_deg": 97.42352756875846,
+      "length_px": 1880.7642063799492,
+      "support_points": 49,
+      "longitudinal_coverage": 0.39061421155929565
+    },
+    {
+      "row_id": 3,
+      "start": [
+        382,
+        58
+      ],
+      "end": [
+        0,
+        2816
+      ],
+      "angle_deg": 97.88564805327006,
+      "length_px": 2784.329003548252,
+      "support_points": 72,
+      "longitudinal_coverage": 0.5852311849594116
+    },
+    {
+      "row_id": 4,
+      "start": [
+        520,
+        60
+      ],
+      "end": [
+        0,
+        3781
+      ],
+      "angle_deg": 97.9554140656693,
+      "length_px": 3757.1586338614984,
+      "support_points": 97,
+      "longitudinal_coverage": 0.7895100116729736
+    },
+    {
+      "row_id": 5,
+      "start": [
+        661,
+        83
+      ],
+      "end": [
+        84,
+        4012
+      ],
+      "angle_deg": 98.35455048476368,
+      "length_px": 3971.142153083921,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 6,
+      "start": [
+        798,
+        62
+      ],
+      "end": [
+        217,
+        4029
+      ],
+      "angle_deg": 98.33220303101012,
+      "length_px": 4009.320391288279,
+      "support_points": 103,
+      "longitudinal_coverage": 0.8371290564537048
+    },
+    {
+      "row_id": 7,
+      "start": [
+        937,
+        80
+      ],
+      "end": [
+        365,
+        4010
+      ],
+      "angle_deg": 98.28108440209186,
+      "length_px": 3971.408314439602,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 8,
+      "start": [
+        1081,
+        64
+      ],
+      "end": [
+        502,
+        4030
+      ],
+      "angle_deg": 98.30598595600479,
+      "length_px": 4008.041541700884,
+      "support_points": 103,
+      "longitudinal_coverage": 0.8371290564537048
+    },
+    {
+      "row_id": 9,
+      "start": [
+        1221,
+        84
+      ],
+      "end": [
+        656,
+        4012
+      ],
+      "angle_deg": 98.18523173548414,
+      "length_px": 3968.4265143756916,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8322981595993042
+    },
+    {
+      "row_id": 10,
+      "start": [
+        1368,
+        62
+      ],
+      "end": [
+        793,
+        4035
+      ],
+      "angle_deg": 98.23506174265506,
+      "length_px": 4014.3933539203654,
+      "support_points": 103,
+      "longitudinal_coverage": 0.8371290564537048
+    },
+    {
+      "row_id": 11,
+      "start": [
+        1516,
+        83
+      ],
+      "end": [
+        941,
+        4012
+      ],
+      "angle_deg": 98.32599855048112,
+      "length_px": 3970.852049623607,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 12,
+      "start": [
+        1653,
+        63
+      ],
+      "end": [
+        1081,
+        3995
+      ],
+      "angle_deg": 98.27693062488909,
+      "length_px": 3973.387471666965,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8322981595993042
+    },
+    {
+      "row_id": 13,
+      "start": [
+        1802,
+        87
+      ],
+      "end": [
+        1225,
+        4016
+      ],
+      "angle_deg": 98.35455048476368,
+      "length_px": 3971.142153083921,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8322981595993042
+    },
+    {
+      "row_id": 14,
+      "start": [
+        1943,
+        66
+      ],
+      "end": [
+        1368,
+        3996
+      ],
+      "angle_deg": 98.32390966389703,
+      "length_px": 3971.8415124473436,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 15,
+      "start": [
+        2093,
+        85
+      ],
+      "end": [
+        1515,
+        4017
+      ],
+      "angle_deg": 98.36253004739082,
+      "length_px": 3974.2556535784156,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 16,
+      "start": [
+        2240,
+        68
+      ],
+      "end": [
+        1662,
+        4001
+      ],
+      "angle_deg": 98.36043385679822,
+      "length_px": 3975.2450238947536,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 17,
+      "start": [
+        2385,
+        90
+      ],
+      "end": [
+        1808,
+        4016
+      ],
+      "angle_deg": 98.36084429376045,
+      "length_px": 3968.1740133214926,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 18,
+      "start": [
+        2526,
+        66
+      ],
+      "end": [
+        1950,
+        3995
+      ],
+      "angle_deg": 98.34027503909188,
+      "length_px": 3970.996978090011,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 19,
+      "start": [
+        2674,
+        88
+      ],
+      "end": [
+        2097,
+        4020
+      ],
+      "angle_deg": 98.3482660771442,
+      "length_px": 3974.1103406926186,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 20,
+      "start": [
+        2816,
+        71
+      ],
+      "end": [
+        2236,
+        3999
+      ],
+      "angle_deg": 98.39947787670651,
+      "length_px": 3970.5898806096807,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 21,
+      "start": [
+        2965,
+        92
+      ],
+      "end": [
+        2387,
+        4022
+      ],
+      "angle_deg": 98.36672556113624,
+      "length_px": 3972.27692891621,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8322981595993042
+    },
+    {
+      "row_id": 22,
+      "start": [
+        3116,
+        70
+      ],
+      "end": [
+        2528,
+        4001
+      ],
+      "angle_deg": 98.50724400592603,
+      "length_px": 3974.7333243879393,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8322981595993042
+    },
+    {
+      "row_id": 23,
+      "start": [
+        3267,
+        95
+      ],
+      "end": [
+        2682,
+        4024
+      ],
+      "angle_deg": 98.46871630554882,
+      "length_px": 3972.312424772251,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8326432108879089
+    },
+    {
+      "row_id": 24,
+      "start": [
+        3413,
+        72
+      ],
+      "end": [
+        2828,
+        3997
+      ],
+      "angle_deg": 98.47722150412883,
+      "length_px": 3968.356082813134,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 25,
+      "start": [
+        3562,
+        94
+      ],
+      "end": [
+        2977,
+        4022
+      ],
+      "angle_deg": 98.47084101648208,
+      "length_px": 3971.3233310824744,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 26,
+      "start": [
+        3709,
+        78
+      ],
+      "end": [
+        3121,
+        4002
+      ],
+      "angle_deg": 98.52219737619818,
+      "length_px": 3967.810479345,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 27,
+      "start": [
+        3861,
+        100
+      ],
+      "end": [
+        3274,
+        4026
+      ],
+      "angle_deg": 98.50364537653182,
+      "length_px": 3969.6404119265007,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 28,
+      "start": [
+        4010,
+        77
+      ],
+      "end": [
+        3420,
+        4005
+      ],
+      "angle_deg": 98.54217769086543,
+      "length_px": 3972.062940085416,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 29,
+      "start": [
+        4169,
+        60
+      ],
+      "end": [
+        3572,
+        4023
+      ],
+      "angle_deg": 98.56681802595183,
+      "length_px": 4007.714810212922,
+      "support_points": 103,
+      "longitudinal_coverage": 0.8371290564537048
+    },
+    {
+      "row_id": 30,
+      "start": [
+        4303,
+        82
+      ],
+      "end": [
+        3718,
+        4004
+      ],
+      "angle_deg": 98.48361154056603,
+      "length_px": 3965.3888838296807,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 31,
+      "start": [
+        4463,
+        62
+      ],
+      "end": [
+        3861,
+        4027
+      ],
+      "angle_deg": 98.63319797226744,
+      "length_px": 4010.4400007979175,
+      "support_points": 103,
+      "longitudinal_coverage": 0.8371290564537048
+    },
+    {
+      "row_id": 32,
+      "start": [
+        4602,
+        81
+      ],
+      "end": [
+        4008,
+        4012
+      ],
+      "angle_deg": 98.5927632079204,
+      "length_px": 3975.625359613252,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 33,
+      "start": [
+        4759,
+        67
+      ],
+      "end": [
+        4158,
+        4033
+      ],
+      "angle_deg": 98.61693204648054,
+      "length_px": 4011.278723798684,
+      "support_points": 103,
+      "longitudinal_coverage": 0.8371290564537048
+    },
+    {
+      "row_id": 34,
+      "start": [
+        4900,
+        84
+      ],
+      "end": [
+        4307,
+        4014
+      ],
+      "angle_deg": 98.58066301538962,
+      "length_px": 3974.487262528338,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 35,
+      "start": [
+        5063,
+        68
+      ],
+      "end": [
+        4468,
+        3993
+      ],
+      "angle_deg": 98.61997239393048,
+      "length_px": 3969.8425661479323,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 36,
+      "start": [
+        5202,
+        87
+      ],
+      "end": [
+        4609,
+        4014
+      ],
+      "angle_deg": 98.58712045901116,
+      "length_px": 3971.5208673756206,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 37,
+      "start": [
+        5359,
+        69
+      ],
+      "end": [
+        4766,
+        3999
+      ],
+      "angle_deg": 98.58066301538962,
+      "length_px": 3974.487262528338,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 38,
+      "start": [
+        5501,
+        93
+      ],
+      "end": [
+        4905,
+        4016
+      ],
+      "angle_deg": 98.63857705067691,
+      "length_px": 3968.0152469465133,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 39,
+      "start": [
+        5655,
+        71
+      ],
+      "end": [
+        5064,
+        4001
+      ],
+      "angle_deg": 98.55215181309555,
+      "length_px": 3974.1893513017217,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8326432108879089
+    },
+    {
+      "row_id": 40,
+      "start": [
+        5807,
+        92
+      ],
+      "end": [
+        5218,
+        3940
+      ],
+      "angle_deg": 98.7025207061927,
+      "length_px": 3892.817103332752,
+      "support_points": 100,
+      "longitudinal_coverage": 0.8164251446723938
+    },
+    {
+      "row_id": 41,
+      "start": [
+        5961,
+        78
+      ],
+      "end": [
+        5368,
+        4005
+      ],
+      "angle_deg": 98.58712045901116,
+      "length_px": 3971.5208673756206,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 42,
+      "start": [
+        6103,
+        95
+      ],
+      "end": [
+        5514,
+        4025
+      ],
+      "angle_deg": 98.52363634305783,
+      "length_px": 3973.8924243114584,
+      "support_points": 102,
+      "longitudinal_coverage": 0.8329882621765137
+    },
+    {
+      "row_id": 43,
+      "start": [
+        6143,
+        717
+      ],
+      "end": [
+        5663,
+        4017
+      ],
+      "angle_deg": 98.2758928270752,
+      "length_px": 3334.7263755816607,
+      "support_points": 86,
+      "longitudinal_coverage": 0.7284334301948547
+    },
+    {
+      "row_id": 44,
+      "start": [
+        6143,
+        1727
+      ],
+      "end": [
+        5798,
+        4058
+      ],
+      "angle_deg": 98.41895151425472,
+      "length_px": 2356.3925818929238,
+      "support_points": 61,
+      "longitudinal_coverage": 0.4899930953979492
+    }
+  ]
+}

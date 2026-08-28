@@ -1,0 +1,105 @@
+{
+  "source": "test_photo\\1787026853792_29_61.jpg",
+  "image_size": {
+    "width": 5472,
+    "height": 3648
+  },
+  "work_scale": 0.32894736842105265,
+  "hsv_mask_ratio": 0.042350462962962965,
+  "dominant_row_angle_deg": 87.83804092477533,
+  "hough_support_lines": 521,
+  "estimated_row_spacing_px": 1094.3999999999999,
+  "row_count": 6,
+  "rows": [
+    {
+      "row_id": 1,
+      "start": [
+        116,
+        99
+      ],
+      "end": [
+        181,
+        3575
+      ],
+      "angle_deg": 88.92871355947267,
+      "length_px": 3476.6076856614122,
+      "support_points": 118,
+      "longitudinal_coverage": 0.9423835873603821
+    },
+    {
+      "row_id": 2,
+      "start": [
+        1017,
+        58
+      ],
+      "end": [
+        1173,
+        3534
+      ],
+      "angle_deg": 87.43033718181805,
+      "length_px": 3479.498814484638,
+      "support_points": 102,
+      "longitudinal_coverage": 0.9281768202781677
+    },
+    {
+      "row_id": 3,
+      "start": [
+        1008,
+        62
+      ],
+      "end": [
+        1332,
+        3566
+      ],
+      "angle_deg": 84.71712445132383,
+      "length_px": 3518.9475699418995,
+      "support_points": 110,
+      "longitudinal_coverage": 0.9337016344070435
+    },
+    {
+      "row_id": 4,
+      "start": [
+        2086,
+        71
+      ],
+      "end": [
+        2221,
+        3560
+      ],
+      "angle_deg": 87.78415775906608,
+      "length_px": 3491.6108030535133,
+      "support_points": 116,
+      "longitudinal_coverage": 0.939226508140564
+    },
+    {
+      "row_id": 5,
+      "start": [
+        3240,
+        58
+      ],
+      "end": [
+        3416,
+        3576
+      ],
+      "angle_deg": 87.13597019127802,
+      "length_px": 3522.3997501703298,
+      "support_points": 117,
+      "longitudinal_coverage": 0.9423835873603821
+    },
+    {
+      "row_id": 6,
+      "start": [
+        4568,
+        68
+      ],
+      "end": [
+        4546,
+        3544
+      ],
+      "angle_deg": 90.36262667396252,
+      "length_px": 3476.069619555972,
+      "support_points": 103,
+      "longitudinal_coverage": 0.9265982508659363
+    }
+  ]
+}

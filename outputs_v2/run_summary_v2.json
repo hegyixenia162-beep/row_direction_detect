@@ -1,0 +1,77 @@
+{
+  "parameters": {
+    "input": "test_photo",
+    "output": "outputs_v2",
+    "names": [
+      "photo3.jpg",
+      "photo4.jpg",
+      "photo5.jpg",
+      "photo6.jpg",
+      "photo7.jpg",
+      "photo8.jpg",
+      "photo9.jpg",
+      "photo10.jpg",
+      "photo11.jpg",
+      "photo12.jpg"
+    ],
+    "max_side": 1800,
+    "h_min": 25,
+    "h_max": 100,
+    "s_min": 35,
+    "v_min": 25,
+    "min_component": 18,
+    "angle_tolerance": 12.0
+  },
+  "images": [
+    {
+      "source": "test_photo\\photo3.jpg",
+      "status": "success",
+      "row_count": 20
+    },
+    {
+      "source": "test_photo\\photo4.jpg",
+      "status": "success",
+      "row_count": 21
+    },
+    {
+      "source": "test_photo\\photo5.jpg",
+      "status": "success",
+      "row_count": 19
+    },
+    {
+      "source": "test_photo\\photo6.jpg",
+      "status": "success",
+      "row_count": 54
+    },
+    {
+      "source": "test_photo\\photo7.jpg",
+      "status": "success",
+      "row_count": 43
+    },
+    {
+      "source": "test_photo\\photo8.jpg",
+      "status": "success",
+      "row_count": 43
+    },
+    {
+      "source": "test_photo\\photo9.jpg",
+      "status": "success",
+      "row_count": 42
+    },
+    {
+      "source": "test_photo\\photo10.jpg",
+      "status": "success",
+      "row_count": 37
+    },
+    {
+      "source": "test_photo\\photo11.jpg",
+      "status": "success",
+      "row_count": 44
+    },
+    {
+      "source": "test_photo\\photo12.jpg",
+      "status": "success",
+      "row_count": 44
+    }
+  ]
+}

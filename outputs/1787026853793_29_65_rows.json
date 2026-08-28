@@ -1,0 +1,90 @@
+{
+  "source": "test_photo\\1787026853793_29_65.jpg",
+  "image_size": {
+    "width": 5472,
+    "height": 3648
+  },
+  "work_scale": 0.32894736842105265,
+  "hsv_mask_ratio": 0.043871759259259256,
+  "dominant_row_angle_deg": 87.15271465115636,
+  "hough_support_lines": 430,
+  "estimated_row_spacing_px": 1143.04,
+  "row_count": 5,
+  "rows": [
+    {
+      "row_id": 1,
+      "start": [
+        770,
+        42
+      ],
+      "end": [
+        853,
+        3535
+      ],
+      "angle_deg": 88.63880476070977,
+      "length_px": 3493.985975930642,
+      "support_points": 82,
+      "longitudinal_coverage": 0.9215229153633118
+    },
+    {
+      "row_id": 2,
+      "start": [
+        1743,
+        51
+      ],
+      "end": [
+        1935,
+        3568
+      ],
+      "angle_deg": 86.87521163696503,
+      "length_px": 3522.2369312696724,
+      "support_points": 117,
+      "longitudinal_coverage": 0.9269618988037109
+    },
+    {
+      "row_id": 3,
+      "start": [
+        2957,
+        46
+      ],
+      "end": [
+        3165,
+        3545
+      ],
+      "angle_deg": 86.59802403995141,
+      "length_px": 3505.1768856935023,
+      "support_points": 114,
+      "longitudinal_coverage": 0.9176379442214966
+    },
+    {
+      "row_id": 4,
+      "start": [
+        4065,
+        63
+      ],
+      "end": [
+        4176,
+        3572
+      ],
+      "angle_deg": 88.18816999390458,
+      "length_px": 3510.7551894143803,
+      "support_points": 105,
+      "longitudinal_coverage": 0.9230769276618958
+    },
+    {
+      "row_id": 5,
+      "start": [
+        5221,
+        56
+      ],
+      "end": [
+        5372,
+        3572
+      ],
+      "angle_deg": 87.54085622014938,
+      "length_px": 3519.2409693000563,
+      "support_points": 103,
+      "longitudinal_coverage": 0.9246309399604797
+    }
+  ]
+}
