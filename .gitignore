@@ -1,4 +1,4 @@
-# 用户要求：本仓库不上传任何测试图片或结果图片；本地文件保留不变。
+# 不提交航片与算法渲染图片；本地文件不会因此被删除。
 *.jpg
 *.jpeg
 *.png
@@ -6,3 +6,21 @@
 *.tiff
 *.bmp
 *.webp
+
+# Python 解释器缓存和虚拟环境不属于源码。
+__pycache__/
+*.py[cod]
+.venv/
+.venv*/
+venv/
+
+# 本地最新版运行产物可随时重建，不进入源码提交。
+outputs_latest/
+
+# 常见编辑器、测试和操作系统临时文件。
+.idea/
+.vscode/
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+Thumbs.db

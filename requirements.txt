@@ -1,0 +1,4 @@
+# 该脚本不调用 OpenCV GUI，headless 版本更适合服务器和容器，并避免额外 GUI 依赖。
+opencv-python-headless>=4.8,<5
+numpy>=1.26,<3
+scipy>=1.11,<2
