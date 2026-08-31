@@ -7,6 +7,10 @@
 *.bmp
 *.webp
 
+# presentation 中只放经脱敏和压缩的公开示例图，允许 Git 跟踪。
+!presentation/
+!presentation/*.jpg
+
 # Python 解释器缓存和虚拟环境不属于源码。
 __pycache__/
 *.py[cod]

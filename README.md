@@ -83,6 +83,14 @@ python run_hsv_hough_latest.py --input "D:\data\cotton\photo6.jpg"
 python run_hsv_hough_latest.py --help
 ```
 
+## 算法处理示例
+
+以下示例使用 `photo6` 展示算法处理前后的效果。公开版原图保持原始分辨率，但已移除 EXIF/GPS 定位元数据；结果图由无元数据的 PNG 转换为高质量 JPEG，以减少仓库体积和页面加载时间。
+
+| 原始棉田航片 | 种植行检测结果 |
+|---|---|
+| ![photo6 原图](presentation/photo6_original.jpg) | ![photo6 种植行检测结果](presentation/photo6_rows_result.jpg) |
+
 ## 输出文件
 
 默认写入 `outputs_latest`：
