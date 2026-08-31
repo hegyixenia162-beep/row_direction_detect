@@ -143,7 +143,7 @@ docs/                     # 中文说明文档
 
 ## 许可证
 
-当前仓库尚未添加开源许可证。在许可证确定之前，公开可见不等于他人获得复制、修改或分发代码的许可。[4] 仓库所有者应根据希望允许的使用范围选择并添加 `LICENSE` 文件。
+本项目采用 [MIT License](LICENSE)。允许使用、复制、修改、合并、发布、分发、再许可和销售本软件，但须保留原版权及许可证声明；软件按“原样”提供，不附带任何担保。[4]
 
 ## 参考资料
 
@@ -153,4 +153,4 @@ docs/                     # 中文说明文档
 
 [3] OpenCV on Wheels. *opencv-python: Installation and Usage* [EB/OL]. Python Package Index, 2026. https://pypi.org/project/opencv-python/ (accessed 2026-08-28).
 
-[4] GitHub. *No License* [EB/OL]. Choose a License, 2026. https://choosealicense.com/no-permission/ (accessed 2026-08-28).
+[4] GitHub. *MIT License* [EB/OL]. Choose a License, 2026. https://choosealicense.com/licenses/mit/ (accessed 2026-08-31).
